@@ -1,0 +1,55 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 430px 430px 430px;
+  grid-template-rows: 300px 300px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.gridBox1 {
+  background-color: #eb4f34;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.gridBox2 {
+  background-color: #eb7134;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.gridBox3 {
+  background-color: #eba534;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.gridBox4 {
+  background-color: #12c97d;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.gridBox5 {
+  background-color: #27d98f;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.gridBox6 {
+  background-color: #50ebaa;
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
